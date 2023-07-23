@@ -23,18 +23,18 @@ nav {
 
 nav img {
     height: 50px;
-    margin-left: 10px;
+    margin-left: 2%;
 }
 
 .nav-links {
     float: right;
-    margin-top: 12px;
-    margin-right: 10px;
+    margin-right: 2%;
 }
 
 /* header and mission section */
 header {
     background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1pi15nn*_ga*MTA5OTYzNDUzNC4xNjY1NzAwNDQz*_ga_3LRZM6TM9L*MTY2OTkzNTg5MS42OC4xLjE2Njk5MzkzNjMuNTcuMC4w");
+    background-size: cover;
     height: 700px;
     margin-left: 40px;
     margin-right: 40px;
@@ -51,9 +51,9 @@ header {
 
 /* tea of the month section */
 .tea {
-   width: 1000px;
-   margin-left: 125px;
-
+   max-width: 100%;
+   margin-left: 5%;
+   margin-right: 5%;
 }
 
 .tea-header {
@@ -79,10 +79,11 @@ header {
 /* locations section */
 .location-container {
     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
-    width: 1200px;
+    max-width: 100%;
     height: 500px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
     position: relative;
     text-align: center;
   }
@@ -90,7 +91,7 @@ header {
   .location-title {
     text-align: center;
     position: absolute;
-    margin-left: 575px;
+    margin-left: 45%;
     margin-top: 15px;
   }
 
@@ -101,8 +102,9 @@ header {
     opacity: 1;
     display: inline-block;
     justify-content: center;
-    margin-top: 110px;
-    margin-left: 40px;
+    margin-top: 8%;
+    margin-left: 2%;
+    margin-right: 2%;
     background-color: black;
   }
 
@@ -120,4 +122,29 @@ header {
 .copyright {
     margin-left: 20px;
     text-align: left;
+}
+
+@media screen and (max-width: 1000px) {
+    .header {
+        height: auto;
+    }
+
+    p, a {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .location-container {
+        height: 750px;
+    }
+
+    .address {
+        width: 200px;
+        height: 200px;
+        padding-top: 15px;
+    }
+
+    .contact {
+        padding-top: 25px;
+    }
 }
