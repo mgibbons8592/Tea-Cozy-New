@@ -81,9 +81,9 @@ header {
 .location-container {
     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
     max-width: 100%;
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 5%;
+    padding-bottom: 50px;
+
     position: relative;
     text-align: center;
   }
@@ -154,6 +154,16 @@ header {
 }
 
 @media screen and (max-width: 480px) {
+    body {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    nav {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
    a {
         font-size: 12px;
         text-align: center;
