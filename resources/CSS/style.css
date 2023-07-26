@@ -18,7 +18,6 @@ html {
 
 /* navigation section */
 nav {
-    height: 69px;
     border-bottom: 1px solid seashell;
 }
 
@@ -75,14 +74,13 @@ header {
 
 .flavor p {
     text-align: center;
-    padding-top: 10px;
+    padding-bottom: 15px;
 }
 
 /* locations section */
 .location-container {
     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
     max-width: 100%;
-    height: 500px;
     margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
@@ -94,7 +92,7 @@ header {
     text-align: center;
     position: absolute;
     margin-left: 45%;
-    margin-top: 15px;
+    margin-top: 10px;
   }
 
   .address {
@@ -128,7 +126,7 @@ header {
 
 @media screen and (max-width: 1000px) {
     .nav-links {
-        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .header {
@@ -152,5 +150,20 @@ header {
 
     .contact {
         padding-top: 25px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+   a {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    nav img {
+        height: 35px;
+    }
+
+    .copyright {
+        margin-left: 5%;
     }
 }
